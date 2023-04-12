@@ -1,0 +1,11 @@
+select * from omnistore.parkinglot;
+delete from omnistore.parkinglot;
+commit;
+insert into omnistore.parkinglot values ("1", "A-1", "Assigned", now(), "raghu", now());
+insert into omnistore.parkinglot values ("2", "A-2", "Assigned", now(), "raghu", now());
+insert into omnistore.parkinglot values ("3", "A-3", "Assigned", now(), "raghu", now());
+insert into omnistore.parkinglot values ("4", "A-4", "Assigned", now(), "raghu", now());
+insert into omnistore.parkinglot values ("5", "A-5", "Assigned", now(), "raghu", now());
+insert into omnistore.parkinglot values ("6", "B-1", "UnAssigned", now(), "raghu", now());
+commit;
+select * from omnistore.parkinglot;

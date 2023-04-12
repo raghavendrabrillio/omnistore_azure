@@ -1,0 +1,14 @@
+select * from omnistore.address;
+delete from omnistore.address;
+commit;
+insert into omnistore.address values ("1", "560029", "Bangalore", "4th Floor, Ben Optimus","080-12345678", "India", "raghu", now());
+insert into omnistore.address values ("2", "560030", "Bangalore", "4th Floor, Ben Optimus","080-12345678", "India", "raghu", now());
+insert into omnistore.address values ("3", "560031", "Bangalore", "4th Floor, Ben Optimus","080-12345678", "India", "raghu", now());
+insert into omnistore.address values ("4", "560032", "Bangalore", "4th Floor, Ben Optimus","080-12345678", "India", "raghu", now());
+insert into omnistore.address values ("5", "560033", "Bangalore", "4th Floor, Ben Optimus","080-12345678", "India", "raghu", now());
+insert into omnistore.address values ("6", "560034", "Bangalore", "4th Floor, Ben Optimus","080-12345678", "India", "raghu", now());
+insert into omnistore.address values ("7", "560035", "Bangalore", "4th Floor, Ben Optimus","080-12345678", "India", "raghu", now());
+insert into omnistore.address values ("8", "500081", "Hyderabad", "12th Floor, Workafella","080-12345678", "India", "raghu", now());
+insert into omnistore.address values ("9", "500081", "Mysore", "12th Floor, Workafella","080-12345678", "India", "raghu", now());
+commit;
+select * from omnistore.address;

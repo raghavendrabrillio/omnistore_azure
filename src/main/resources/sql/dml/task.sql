@@ -1,0 +1,14 @@
+select * from omnistore.task;
+delete from omnistore.task;
+commit;
+insert into omnistore.task values ("1", "1", 2, "Active", now(), "raghu", now());
+insert into omnistore.task values ("2", "2", 2, "Active", now(), "raghu", now());
+insert into omnistore.task values ("3", "3", 3, "Active", now(), "raghu", now());
+insert into omnistore.task values ("4", "4", 3, "Active", now(), "raghu", now());
+insert into omnistore.task values ("5", "5", 4, "Active", now(), "raghu", now());
+insert into omnistore.task values ("6", "6", 4, "Active", now(), "raghu", now());
+insert into omnistore.task values ("7", "7", 3, "Active", now(), "raghu", now());
+insert into omnistore.task values ("8", "8", 6, "Complete", now(), "raghu", now());
+insert into omnistore.task values ("9", "9", 4, "Active", now(), "raghu", now());
+commit;
+select * from omnistore.task;

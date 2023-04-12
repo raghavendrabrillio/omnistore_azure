@@ -1,0 +1,14 @@
+select * from omnistore.schedule;
+delete from omnistore.schedule;
+commit;
+insert into omnistore.schedule values ("1", "7", 1, "27", now(), "Active", "Exchange", "2", "raghu", now());
+insert into omnistore.schedule values ("2", "7", 1, "28", now(), "Active", "Exchange", "3", "raghu", now());
+insert into omnistore.schedule values ("3", "8", 2, "29", now(), "Active", "Exchange", "4", "raghu", now());
+insert into omnistore.schedule values ("4", "8", 2, "30", now(), "Active", "Exchange", "5", "raghu", now());
+insert into omnistore.schedule values ("5", "2", 3, "6", now(), "Active", "Exchange", "12", "raghu", now());
+insert into omnistore.schedule values ("6", "3", 4, "11", now(), "Active", "Return", null, "raghu", now());
+insert into omnistore.schedule values ("7", "4", 5, "16", now(), "Active", "Exchange", "13", "raghu", now());
+insert into omnistore.schedule values ("8", "6", null, "22", now(), "Completed", "Exchange", "14", "raghu", now());
+insert into omnistore.schedule values ("9", "2", 3, "7", now(), "Active", "Return", null, "raghu", now());
+commit;
+select * from omnistore.schedule;

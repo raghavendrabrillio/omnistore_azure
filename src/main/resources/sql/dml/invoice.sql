@@ -1,0 +1,13 @@
+select * from omnistore.invoice;
+delete from omnistore.invoice;
+commit;
+insert into omnistore.invoice values ("1", 1421.12, "cash", now(), "1", "raghu", now());
+insert into omnistore.invoice values ("2", 23111.12, "credit card", now(), "2", "raghu", now());
+insert into omnistore.invoice values ("3", 41121.12, "cash", now(), "3", "raghu", now());
+insert into omnistore.invoice values ("4", 2155.12, "debit card", now(), "4", "raghu", now());
+insert into omnistore.invoice values ("5", 6644.32, "upi", now(), "5", "raghu", now());
+insert into omnistore.invoice values ("6", 8852.54, "cash", now(), "6", "raghu", now());
+insert into omnistore.invoice values ("7", 7321.78, "cash", now(), "7", "raghu", now());
+insert into omnistore.invoice values ("8", 9876.67, "cash", now(), "8", "raghu", now());
+commit;
+select * from omnistore.invoice;

@@ -1,0 +1,24 @@
+-- call drop first
+--omnistore.schedulestatus;
+--omnistore.task;
+--omnistore.schedule;
+--omnistore.invoiceitem;
+--omnistore.orderitem;
+
+--omnistore.invoice;
+--omnistore.purchaseorder;
+--omnistore.user;
+--omnistore.login;
+--omnistore.address;
+
+-- create tables in reverse order
+--omnistore.address;
+--omnistore.login;
+--omnistore.user;
+--omnistore.purchaseorder;
+--omnistore.invoice;
+--omnistore.orderitem;
+--omnistore.invoiceitem;
+--omnistore.schedule;
+--omnistore.task;
+--omnistore.schedulestatus;
